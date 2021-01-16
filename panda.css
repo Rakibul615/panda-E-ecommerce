@@ -10,4 +10,8 @@
 body{
     background-color: #DB9882;
 }
-
+.panda-nav:hover{
+    background-color: cornsilk;
+    font-size: 20px;
+    font-weight: bolder;
+}
