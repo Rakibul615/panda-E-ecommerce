@@ -4,16 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <link rel="stylesheet" href="panda.css">
-    <title>panda ecommerce</title>
+    <link rel="stylesheet" href="style.css">
+    <title>unknown ecommerce</title>
 </head>
 <body>
     <header class="container ">
         <nav class="  navbar navbar-expand-lg fixed-top navbar-light bg-light">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#">
-                  <img src="images/logo.png" alt="">
-              </a>
+            
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -23,20 +21,20 @@
                     <a class="nav-link active panda-nav" aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link panda-nav" href="#">Shoes</a>
+                    <a class="nav-link panda-nav" href="#">Product</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link panda-nav" href="#">Backpack</a>
+                    <a class="nav-link panda-nav" href="#contact">Contact</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link panda-nav" href="#" tabindex="-1" aria-disabled="true">Subcribe</a>
+                    <a class="nav-link panda-nav" href="#about" tabindex="-1" aria-disabled="true">About</a>
                   </li>
                 </ul>
               </div>
             </div>
           </nav>
-          <!-- carosule start-->
-          <div id="carouselExampleControls" class="carousel slide panda-slide" data-bs-ride="carousel">
+          <!-- carousel start-->
+          <div id="carouselExampleControls" class="carousel slide carousel-slide" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
                <div class="row d-flex align-items-center p-5">
@@ -92,18 +90,14 @@
               <span class="visually-hidden">Next</span>
             </a>
           </div>
-          <!--craosule end-->
+          <!--craousel end-->
     </header>
+
+    <!-- product section start-->
     <main class="container">
         <section class="container  overflow-hidden mt-5">
             <div class="row g-5">
-              <div class="col ">
-               <div class="p-3 d-flex align-items-center justify-content-evenly  bg-warning">
-                   <h1>WATCH</h1>
-                <img src="images/categories/watch.png" alt="">
-
-               </div>
-              </div>
+             
               <div class="col">
                 <div class="p-3 d-flex align-items-center justify-content-evenly bg-info">
                     <h1>BAG</h1>
@@ -113,16 +107,16 @@
               </div>
               <div class="col">
                 <div class="p-3 d-flex align-items-center justify-content-evenly bg-success ">
-                    <h1>SHOES</h1>
-                    <img src="images/categories/shoes.png" alt="">
+                    <h1>BAG</h1>
+                    <img src="images/categories/bag.png" alt="">
                     
                 </div>
               </div>
             </div>
           </section>
-          <!--card start-->
+          <!--regular box start-->
           <section class="container mt-5">
-              <h1>Shoes</h1>
+              <h1>Regular Box</h1>
           <div class="row row-cols-1 row-cols-md-3 g-4">
             <div class="col">
               <div class="card h-100 shadow">
@@ -165,9 +159,9 @@
             </div>
           </div>
           </section>
-          <!--backpack start-->
+          <!--specialized box start-->
           <section class="container mt-5">
-            <h1>Backpack</h1>
+            <h1>Specialized Box</h1>
         <div class="row row-cols-1 row-cols-md-3 g-4">
           <div class="col">
             <div class="card h-100 shadow">
@@ -214,20 +208,22 @@
           </div>
         </div>
         </section>
-        <section style="height:300px" class="container align-items-center bg-info d-flex justify-content-center mt-5">
-        <div>
-            <h1>LET'S STAY IN TOUCH</h1>
-            <h5>Get Updates on seles,Specials and more</h5>
-            <input type="text" placeholder="Enter your name">
-            <button type="button" class="btn btn-warning">SUBMIT</button>
+         <!-- product section start-->
+         
+        <section id="about" style="height:300px" class="container align-items-center bg-info d-flex justify-content-center mt-5">
+        <div >
+            <h1>About section</h1>
+            
+            
+          
         </div>
         </section>
     </main>
     <!--footer start-->
-    <footer class="container mt-5">
+    <footer id="contact" class="container mt-5">
         <div class="card">
             <div class="card-body">
-              <p  class="text-center">@2022. Panda Commerce</p>
+              <p  class="text-center"> Here, put your contact information</p>
             </div>
           </div>
     </footer>
